@@ -11,8 +11,9 @@ void setup() {
   pinMode(WIO_5S_LEFT,INPUT);
   pinMode(WIO_5S_RIGHT,INPUT);
   pinMode(WIO_5S_PRESS, INPUT);
-  pinMOde(WIO_KEY_A, INPUT);
-
+  pinMode(WIO_KEY_A, INPUT);
+  pinMode(WIO_KEY_B, INPUT);
+  pinMode(WIO_KEY_C, INPUT);
 }
 
 void loop() {
